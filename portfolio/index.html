@@ -256,7 +256,7 @@
 
     <!-- Container (Portfolio Section) -->
     <div class="w3-content w3-container w3-padding-64" id="portfolio">
-      <h3 class="w3-center">MY WORK</h3>
+      <h3 class="w3-center" id="work">MY WORK</h3>
       <p class="w3-center">
         <em
           >Here are some of my latest work.<br />
@@ -264,25 +264,27 @@
         >
       </p>
       <br />
-      <div class="w3-container graphic w3-hide-small" >
+      <a href="#work">
+        <div class="w3-container graphic w3-hide-small" >
+        
         <div class="w3-container" id="1"  onclick="this.style.display='none'" style="display: none;">
-            <a href="#portfolio">
+            
             <img src="pic/1_1.jpg" 
             alt=""
             style="max-width: 100%;"
             >
-            </a>
-            <a href="#portfolio">
+            
             <img src="pic/1_2.jpg" 
             alt=""
             style="max-width: 100%;"
             >
-            </a>
+            
             <img src="pic/1_3.jpg" 
             alt=""
             style="max-width: 100%;"
             >
         </div>
+        
         <div class="w3-container" id="2" onclick="this.style.display='none'" style="display: none;"> 
             <img src="pic/2_1.jpg" 
             alt=""
@@ -445,10 +447,11 @@
             >
 
         </div>                                  
-    </div>
+        </div>
+      </a>
       <br>
       <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-     <a href="#porfolio">
+      <a href="#porfolio">
       <div class="w3-container grapicTag">
       <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
@@ -541,6 +544,7 @@
           />
         </div>
       </div>
+
       <div class="w3-row-padding w3-center w3-section">
         <div class="w3-col m3">
           <img
@@ -586,7 +590,8 @@
           />
         </div>
       </div>
-    </div> </a>
+      </div> 
+      </a>
     </div>
 
     <!-- Modal for full size images on click-->
